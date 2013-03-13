@@ -64,4 +64,4 @@ class Article(content.Item):
 class View(grok.View):
     grok.context(IArticle)
     grok.require('zope2.View')
-    grok.name('my-view')
+    grok.name('view')
