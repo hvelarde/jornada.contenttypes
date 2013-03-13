@@ -18,8 +18,7 @@
     <dd tal:define="oddrow repeat/obj/odd"
         tal:attributes="class python:'portletItem odd' if oddrow else 'portletItem even'">
         <a href="" class="tile"
-           tal:attributes="href obj/getURL;
-                           title obj/Description;">
+           tal:attributes="href obj/getURL">
             <span tal:replace="obj/Title">
               Title
             </span>
